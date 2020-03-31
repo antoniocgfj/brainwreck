@@ -1,0 +1,155 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Franklin Gothic Book";
+}
+
+#fullpage {
+    width: 100%;
+}
+
+body {
+    background: url(band8.jpg);
+    background-size: cover;
+}
+
+#logo {
+    font-family: "Niagara Solid";
+    font-size: 36px;
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin: 7px 0 5px 20px;
+}
+
+#logo:hover {
+    color: grey;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.nav {
+    background: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 55px;
+}
+
+.nav ul li {
+    float: right;
+    display: block;
+    color: white;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.nav ul li a:hover {
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    background: grey;
+}
+
+.nav-right {
+    margin: 9px 10px 5px 0;
+}
+
+#main {
+    height: 800px;
+    text-align: center;
+}
+
+#main h1 {
+    position: relative;
+    z-index: 11;
+    font-size: 75px;
+    top: 30%;
+    transform: translateY(-50%);
+    font-family: "Niagara Solid";
+    color: #333333;
+    background-color: #ffffff;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 71px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 71px 9px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 71px 9px rgba(0,0,0,0.75);
+}
+
+.tableContainer {
+    color: #333333;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 71px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 71px 9px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 71px 9px rgba(0,0,0,0.75);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+
+.tableContainer tr {
+    height: 85px;
+    
+}
+
+thead {
+    font-family: "Niagara Solid";
+    font-size: 30px;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer ul {
+    margin-right: 60px;
+}
+
+.footer ul li {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.sources {
+    margin-top: 50px;
+}
+
+.footerLogos {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background-color:#dfdfdf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

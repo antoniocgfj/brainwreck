@@ -1,0 +1,19 @@
+{
+  "name": "database_interactions_and_ui",
+  "version": "1.0.0",
+  "description": "Homework Assignment 6 for CS290-Fall 2019",
+  "main": "assignment6-sudolt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node assignment6-sudolt.js"
+  },
+  "author": "Tim Sudol",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.18.1",
+    "npm": "^6.14.2"
+  }
+}
